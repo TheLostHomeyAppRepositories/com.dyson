@@ -1,0 +1,4 @@
+{
+  "invalid_credentials": "Nieprawidłowa kombinacja email i hasło.",
+  "missing_client": "Urządzenie nie mogło zostać znalezione w lokalnej sieci."
+}

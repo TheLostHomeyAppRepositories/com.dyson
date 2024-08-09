@@ -1,0 +1,4 @@
+{
+  "invalid_credentials": "Ogiltig kombination av e-post och lösenord.",
+  "missing_client": "Enheten kunde inte hittas på det lokala nätverket."
+}

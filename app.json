@@ -3,12 +3,32 @@
   "id": "com.dyson",
   "sdk": 3,
   "name": {
-    "en": "Dyson"
+    "en": "Dyson",
+    "da": "Dyson",
+    "de": "Dyson",
+    "es": "Dyson",
+    "fr": "Dyson",
+    "it": "Dyson",
+    "no": "Dyson",
+    "sv": "Dyson",
+    "pl": "Dyson",
+    "ru": "Dyson",
+    "ko": "다이슨"
   },
   "brandColor": "#522A86",
   "description": {
     "en": "Make It Your Cool Home",
-    "nl": "Make It Your Cool Home"
+    "nl": "Make It Your Cool Home",
+    "da": "Gør Det Til Dit Cool Hjem",
+    "de": "Mach es zu deinem coolen Zuhause",
+    "es": "Hazlo tu hogar genial",
+    "fr": "Faites-en votre maison cool",
+    "it": "Rendi la tua casa cool",
+    "no": "Gjør det til ditt kule hjem",
+    "sv": "Gör det till ditt coola hem",
+    "pl": "Uczyń to swoim fajnym domem",
+    "ru": "Сделай это своим крутым домом",
+    "ko": "멋진 집으로 만들기"
   },
   "category": "appliances",
   "tags": {
@@ -23,9 +43,69 @@
       "air multiplier",
       "ventilator",
       "stofzuiger"
+    ],
+    "da": [
+      "dyson",
+      "luftmultiplikator",
+      "ventilator",
+      "støvsuger"
+    ],
+    "de": [
+      "dyson",
+      "Luftmultiplikator",
+      "Ventilator",
+      "Staubsauger"
+    ],
+    "es": [
+      "dyson",
+      "multiplicador de aire",
+      "ventilador",
+      "aspiradora"
+    ],
+    "fr": [
+      "dyson",
+      "multiplicateur d'air",
+      "ventilateur",
+      "aspirateur"
+    ],
+    "it": [
+      "dyson",
+      "moltiplicatore d'aria",
+      "ventilatore",
+      "aspirapolvere"
+    ],
+    "no": [
+      "dyson",
+      "luftmultiplikator",
+      "vifte",
+      "støvsuger"
+    ],
+    "sv": [
+      "dyson",
+      "luftmultiplikator",
+      "fläkt",
+      "dammsugare"
+    ],
+    "pl": [
+      "dyson",
+      "mnożnik powietrza",
+      "wentylator",
+      "odkurzacz"
+    ],
+    "ru": [
+      "dyson",
+      "умножитель воздуха",
+      "вентилятор",
+      "пылесос"
+    ],
+    "ko": [
+      "다이슨",
+      "공기 증폭기",
+      "팬",
+      "진공청소기"
     ]
   },
-  "version": "5.5.1",
+  "version": "5.6.0",
   "compatibility": ">=5.0.0",
   "author": {
     "name": "Athom B.V."
@@ -48,7 +128,17 @@
         "id": "heuristic_vacuum_state_changed",
         "title": {
           "en": "State changed",
-          "nl": "Status veranderd"
+          "nl": "Status veranderd",
+          "da": "Tilstand ændret",
+          "de": "Zustand geändert",
+          "es": "Estado cambiado",
+          "fr": "État modifié",
+          "it": "Stato cambiato",
+          "no": "Tilstand endret",
+          "sv": "Tillstånd ändrat",
+          "pl": "Stan zmieniony",
+          "ru": "Состояние изменено",
+          "ko": "상태 변경됨"
         },
         "tokens": [
           {
@@ -56,7 +146,17 @@
             "type": "string",
             "title": {
               "en": "State",
-              "nl": "Status"
+              "nl": "Status",
+              "da": "Tilstand",
+              "de": "Zustand",
+              "es": "Estado",
+              "fr": "État",
+              "it": "Stato",
+              "no": "Tilstand",
+              "sv": "Tillstånd",
+              "pl": "Stan",
+              "ru": "Состояние",
+              "ko": "상태"
             }
           }
         ],
@@ -72,7 +172,17 @@
         "id": "heuristic_vacuum_power_mode_changed",
         "title": {
           "en": "Power mode changed",
-          "nl": "Vermogensmodus veranderd"
+          "nl": "Vermogensmodus veranderd",
+          "da": "Strømtilstand ændret",
+          "de": "Leistungsmodus geändert",
+          "es": "Modo de potencia cambiado",
+          "fr": "Mode de puissance changé",
+          "it": "Modalità di potenza cambiata",
+          "no": "Kraftmodus endret",
+          "sv": "Strömläge ändrat",
+          "pl": "Tryb zasilania zmieniony",
+          "ru": "Режим питания изменен",
+          "ko": "전원 모드 변경됨"
         },
         "tokens": [
           {
@@ -80,7 +190,17 @@
             "type": "string",
             "title": {
               "en": "Mode",
-              "nl": "Modus"
+              "nl": "Modus",
+              "da": "Tilstand",
+              "de": "Modus",
+              "es": "Modo",
+              "fr": "Mode",
+              "it": "Modalità",
+              "no": "Modus",
+              "sv": "Läge",
+              "pl": "Tryb",
+              "ru": "Режим",
+              "ko": "모드"
             }
           }
         ],
@@ -98,11 +218,31 @@
         "id": "dyson_heuristic_abort",
         "title": {
           "en": "Abort program",
-          "nl": "Beëindig programma"
+          "nl": "Beëindig programma",
+          "da": "Afbryd program",
+          "de": "Programm abbrechen",
+          "es": "Abortar programa",
+          "fr": "Annuler le programme",
+          "it": "Interrompi programma",
+          "no": "Avbryt program",
+          "sv": "Avbryt program",
+          "pl": "Przerwij program",
+          "ru": "Прервать программу",
+          "ko": "프로그램 중단"
         },
         "hint": {
           "en": "Stop the current cleaning operation.",
-          "nl": "Beëindig de huidige operatie."
+          "nl": "Beëindig de huidige operatie.",
+          "da": "Stop den aktuelle rengøringsoperation.",
+          "de": "Beenden Sie den aktuellen Reinigungsvorgang.",
+          "es": "Detener la operación de limpieza actual.",
+          "fr": "Arrêtez l'opération de nettoyage en cours.",
+          "it": "Ferma l'operazione di pulizia in corso.",
+          "no": "Stopp den nåværende rengjøringsoperasjonen.",
+          "sv": "Stoppa den aktuella städningsoperationen.",
+          "pl": "Zatrzymaj bieżącą operację czyszczenia.",
+          "ru": "Остановить текущую операцию уборки.",
+          "ko": "현재 청소 작업 중지."
         },
         "args": [
           {
@@ -116,11 +256,31 @@
         "id": "dyson_heuristic_pause",
         "title": {
           "en": "Pause program",
-          "nl": "Pauzeer programma"
+          "nl": "Pauzeer programma",
+          "da": "Pause program",
+          "de": "Programm pausieren",
+          "es": "Pausar programa",
+          "fr": "Mettre en pause le programme",
+          "it": "Metti in pausa il programma",
+          "no": "Pause program",
+          "sv": "Pausa program",
+          "pl": "Wstrzymaj program",
+          "ru": "Приостановить программу",
+          "ko": "프로그램 일시 중지"
         },
         "hint": {
           "en": "Pause the current cleaning operation.",
-          "nl": "Pauzeer de huidige operatie."
+          "nl": "Pauzeer de huidige operatie.",
+          "da": "Pause den aktuelle rengøringsoperation.",
+          "de": "Pause des aktuellen Reinigungsvorgangs.",
+          "es": "Pausar la operación de limpieza actual.",
+          "fr": "Mettre en pause l'opération de nettoyage en cours.",
+          "it": "Metti in pausa l'operazione di pulizia in corso.",
+          "no": "Pause den nåværende rengjøringsoperasjonen.",
+          "sv": "Pausa den aktuella städningsoperationen.",
+          "pl": "Wstrzymaj bieżącą operację czyszczenia.",
+          "ru": "Приостановить текущую операцию уборки.",
+          "ko": "현재 청소 작업 일시 중지."
         },
         "args": [
           {
@@ -134,11 +294,31 @@
         "id": "dyson_heuristic_resume",
         "title": {
           "en": "Resume program",
-          "nl": "Hervat programma"
+          "nl": "Hervat programma",
+          "da": "Genoptag program",
+          "de": "Programm fortsetzen",
+          "es": "Reanudar programa",
+          "fr": "Reprendre le programme",
+          "it": "Riprendi il programma",
+          "no": "Gjenoppta program",
+          "sv": "Återuppta program",
+          "pl": "Wznów program",
+          "ru": "Возобновить программу",
+          "ko": "프로그램 재개"
         },
         "hint": {
           "en": "Resume the current cleaning operation.",
-          "nl": "Hervat de huidige operatie."
+          "nl": "Hervat de huidige operatie.",
+          "da": "Genoptag den aktuelle rengøringsoperation.",
+          "de": "Fortsetzen des aktuellen Reinigungsvorgangs.",
+          "es": "Reanudar la operación de limpieza actual.",
+          "fr": "Reprendre l'opération de nettoyage en cours.",
+          "it": "Riprendi l'operazione di pulizia in corso.",
+          "no": "Fortsett den nåværende rengjøringsoperasjonen.",
+          "sv": "Återuppta den aktuella städningsoperationen.",
+          "pl": "Wznów bieżącą operację czyszczenia.",
+          "ru": "Возобновить текущую операцию уборки.",
+          "ko": "현재 청소 작업 재개."
         },
         "args": [
           {
@@ -152,7 +332,17 @@
         "id": "dyson_heuristic_start_all",
         "title": {
           "en": "Clean all zones",
-          "nl": "Reinig alle zones"
+          "nl": "Reinig alle zones",
+          "da": "Rens alle zoner",
+          "de": "Reinige alle Zonen",
+          "es": "Limpiar todas las zonas",
+          "fr": "Nettoyer toutes les zones",
+          "it": "Pulisci tutte le zone",
+          "no": "Rengjør alle soner",
+          "sv": "Rengör alla zoner",
+          "pl": "Wyczyść wszystkie strefy",
+          "ru": "Очистить все зоны",
+          "ko": "모든 구역 청소"
         },
         "args": [
           {
@@ -166,11 +356,31 @@
         "id": "dyson_heuristic_set_default_power_mode",
         "title": {
           "en": "Set default power mode to...",
-          "nl": "Zet standaard vermogensmodus op..."
+          "nl": "Zet standaard vermogensmodus op...",
+          "da": "Indstil standard strømtilstand til...",
+          "de": "Standardleistungsmodus einstellen auf...",
+          "es": "Establecer modo de potencia predeterminado a...",
+          "fr": "Définir le mode de puissance par défaut sur...",
+          "it": "Imposta la modalità di potenza predefinita su...",
+          "no": "Sett standard kraftmodus til...",
+          "sv": "Ställ in standardströmläge till...",
+          "pl": "Ustaw domyślny tryb zasilania na...",
+          "ru": "Установить стандартный режим питания на...",
+          "ko": "기본 전원 모드를 다음으로 설정..."
         },
         "titleFormatted": {
           "en": "Set default power mode to [[mode]]",
-          "nl": "Zet standaard vermogensmodus op [[mode]]"
+          "nl": "Zet standaard vermogensmodus op [[mode]]",
+          "da": "Indstil standard strømtilstand til [[mode]]",
+          "de": "Standardleistungsmodus auf [[mode]] einstellen",
+          "es": "Establecer modo de potencia predeterminado a [[mode]]",
+          "fr": "Définir le mode de puissance par défaut sur [[mode]]",
+          "it": "Imposta la modalità di potenza predefinita su [[mode]]",
+          "no": "Sett standard kraftmodus til [[mode]]",
+          "sv": "Ställ in standardströmläge till [[mode]]",
+          "pl": "Ustaw domyślny tryb zasilania na [[mode]]",
+          "ru": "Установить стандартный режим питания на [[mode]]",
+          "ko": "기본 전원 모드를 [[mode]]로 설정"
         },
         "args": [
           {
@@ -182,7 +392,17 @@
             "name": "mode",
             "title": {
               "en": "Mode",
-              "nl": "Modus"
+              "nl": "Modus",
+              "da": "Tilstand",
+              "de": "Modus",
+              "es": "Modo",
+              "fr": "Mode",
+              "it": "Modalità",
+              "no": "Modus",
+              "sv": "Läge",
+              "pl": "Tryb",
+              "ru": "Режим",
+              "ko": "모드"
             },
             "type": "dropdown",
             "values": [
@@ -190,21 +410,51 @@
                 "id": "quiet",
                 "label": {
                   "en": "Quiet",
-                  "nl": "Stil"
+                  "nl": "Stil",
+                  "da": "Stille",
+                  "de": "Leise",
+                  "es": "Silencioso",
+                  "fr": "Silencieux",
+                  "it": "Silenzioso",
+                  "no": "Stille",
+                  "sv": "Tyst",
+                  "pl": "Cichy",
+                  "ru": "Тихий",
+                  "ko": "조용함"
                 }
               },
               {
                 "id": "high",
                 "label": {
                   "en": "High",
-                  "nl": "Hoog"
+                  "nl": "Hoog",
+                  "da": "Høj",
+                  "de": "Hoch",
+                  "es": "Alto",
+                  "fr": "Élevé",
+                  "it": "Alto",
+                  "no": "Høy",
+                  "sv": "Hög",
+                  "pl": "Wysoki",
+                  "ru": "Высокий",
+                  "ko": "높은"
                 }
               },
               {
                 "id": "max",
                 "label": {
                   "en": "Max",
-                  "nl": "Max"
+                  "nl": "Max",
+                  "da": "Maks",
+                  "de": "Max",
+                  "es": "Máximo",
+                  "fr": "Max",
+                  "it": "Max",
+                  "no": "Maks",
+                  "sv": "Max",
+                  "pl": "Maks",
+                  "ru": "Макс",
+                  "ko": "최대"
                 }
               }
             ]
@@ -215,7 +465,17 @@
         "id": "dyson_am_oscillate",
         "title": {
           "en": "Toggle oscillation",
-          "nl": "Schakel draaien aan of uit"
+          "nl": "Schakel draaien aan of uit",
+          "da": "Skift oscillation",
+          "de": "Oszillation umschalten",
+          "es": "Alternar oscilación",
+          "fr": "Basculer l'oscillation",
+          "it": "Attiva/disattiva oscillazione",
+          "no": "Veksle svingning",
+          "sv": "Växla oscillation",
+          "pl": "Przełącz oscylację",
+          "ru": "Переключение колебаний",
+          "ko": "진동 전환"
         },
         "args": [
           {
@@ -229,11 +489,31 @@
         "id": "dyson_am_more_air",
         "title": {
           "en": "Increase air speed",
-          "nl": "Verhoog luchtsnelheid"
+          "nl": "Verhoog luchtsnelheid",
+          "da": "Øg luft hastighed",
+          "de": "Luftgeschwindigkeit erhöhen",
+          "es": "Aumentar la velocidad del aire",
+          "fr": "Augmenter la vitesse de l'air",
+          "it": "Aumenta la velocità dell'aria",
+          "no": "Øk luft hastighet",
+          "sv": "Öka lufthastigheten",
+          "pl": "Zwiększ prędkość powietrza",
+          "ru": "Увеличить скорость воздуха",
+          "ko": "공기 속도 증가"
         },
         "titleFormatted": {
           "en": "Increase air speed by [[amount]] steps",
-          "nl": "Verhoog luchtsnelheid met [[amount]] stappen"
+          "nl": "Verhoog luchtsnelheid met [[amount]] stappen",
+          "da": "Øg luft hastighed med [[amount]] trin",
+          "de": "Erhöhen Sie die Luftgeschwindigkeit um [[amount]] Schritte",
+          "es": "Aumenta la velocidad del aire en [[amount]] pasos",
+          "fr": "Augmentez la vitesse de l'air de [[amount]] pas",
+          "it": "Aumenta la velocità dell'aria di [[amount]] passaggi",
+          "no": "Øk luft hastighet med [[amount]] trinn",
+          "sv": "Öka lufthastigheten med [[amount]] steg",
+          "pl": "Zwiększ prędkość powietrza o [[amount]] kroków",
+          "ru": "Увеличьте скорость воздуха на [[amount]] шагов",
+          "ko": "공기 속도를 [[amount]] 단계만큼 증가시키세요"
         },
         "args": [
           {
@@ -245,7 +525,17 @@
             "name": "amount",
             "title": {
               "en": "Amount",
-              "nl": "Aantal"
+              "nl": "Aantal",
+              "da": "Antal",
+              "de": "Menge",
+              "es": "Cantidad",
+              "fr": "Quantité",
+              "it": "Quantità",
+              "no": "Mengde",
+              "sv": "Mängd",
+              "pl": "Ilość",
+              "ru": "Количество",
+              "ko": "양"
             },
             "type": "number",
             "min": 1,
@@ -253,7 +543,17 @@
             "step": 1,
             "placeholder": {
               "en": "Steps",
-              "nl": "Standen"
+              "nl": "Standen",
+              "da": "Skridt",
+              "de": "Schritte",
+              "es": "Pasos",
+              "fr": "Étapes",
+              "it": "Passaggi",
+              "no": "Trinn",
+              "sv": "Steg",
+              "pl": "Kroki",
+              "ru": "Шаги",
+              "ko": "단계"
             }
           }
         ]
@@ -262,11 +562,31 @@
         "id": "dyson_am_less_air",
         "title": {
           "en": "Decrease air speed",
-          "nl": "Verlaag luchtsnelheid"
+          "nl": "Verlaag luchtsnelheid",
+          "da": "Reducer luft hastighed",
+          "de": "Luftgeschwindigkeit verringern",
+          "es": "Disminuye la velocidad del aire",
+          "fr": "Diminuer la vitesse de l'air",
+          "it": "Diminuisci la velocità dell'aria",
+          "no": "Reduser luft hastighet",
+          "sv": "Minska lufthastigheten",
+          "pl": "Zmniejsz prędkość powietrza",
+          "ru": "Уменьшить скорость воздуха",
+          "ko": "공기 속도 감소"
         },
         "titleFormatted": {
           "en": "Decrease air speed by [[amount]] steps",
-          "nl": "Verlaag luchtsnelheid met [[amount]] stappen"
+          "nl": "Verlaag luchtsnelheid met [[amount]] stappen",
+          "da": "Reducer luft hastighed med [[amount]] trin",
+          "de": "Verringern Sie die Luftgeschwindigkeit um [[amount]] Schritte",
+          "es": "Disminuye la velocidad del aire en [[amount]] pasos",
+          "fr": "Diminuez la vitesse de l'air de [[amount]] pas",
+          "it": "Diminuisci la velocità dell'aria di [[amount]] passaggi",
+          "no": "Reduser luft hastighet med [[amount]] trinn",
+          "sv": "Minska lufthastigheten med [[amount]] steg",
+          "pl": "Zmniejsz prędkość powietrza o [[amount]] kroków",
+          "ru": "Уменьшите скорость воздуха на [[amount]] шагов",
+          "ko": "공기 속도를 [[amount]] 단계만큼 감소시키세요"
         },
         "args": [
           {
@@ -278,7 +598,17 @@
             "name": "amount",
             "title": {
               "en": "Amount",
-              "nl": "Aantal"
+              "nl": "Aantal",
+              "da": "Antal",
+              "de": "Menge",
+              "es": "Cantidad",
+              "fr": "Quantité",
+              "it": "Quantità",
+              "no": "Mengde",
+              "sv": "Mängd",
+              "pl": "Ilość",
+              "ru": "Количество",
+              "ko": "양"
             },
             "type": "number",
             "min": 1,
@@ -286,7 +616,17 @@
             "step": 1,
             "placeholder": {
               "en": "Steps",
-              "nl": "Standen"
+              "nl": "Standen",
+              "da": "Skridt",
+              "de": "Schritte",
+              "es": "Pasos",
+              "fr": "Étapes",
+              "it": "Passaggi",
+              "no": "Trinn",
+              "sv": "Steg",
+              "pl": "Kroki",
+              "ru": "Шаги",
+              "ko": "단계"
             }
           }
         ]
@@ -569,7 +909,18 @@
   "drivers": [
     {
       "name": {
-        "en": "Dyson 360 Heuristic"
+        "en": "Dyson 360 Heuristic",
+        "nl": "Dyson 360 Heuristic",
+        "da": "Dyson 360 Heuristic",
+        "de": "Dyson 360 Heuristic",
+        "es": "Dyson 360 Heuristic",
+        "fr": "Dyson 360 Heuristic",
+        "it": "Dyson 360 Heuristic",
+        "no": "Dyson 360 Heuristic",
+        "sv": "Dyson 360 Heuristic",
+        "pl": "Dyson 360 Heuristic",
+        "ru": "Dyson 360 Heuristic",
+        "ko": "Dyson 360 Heuristic"
       },
       "class": "vacuumcleaner",
       "platforms": [
@@ -614,7 +965,18 @@
             "length": 6,
             "type": "number",
             "title": {
-              "en": "Enter your 2FA code. This can usually be found in your e-mail."
+              "en": "Enter your 2FA code. This can usually be found in your e-mail.",
+              "nl": "Voer je 2FA-code in. Deze is meestal te vinden in je e-mail.",
+              "da": "Indtast din 2FA-kode. Denne kan normalt findes i din e-mail.",
+              "de": "Geben Sie Ihren 2FA-Code ein. Dieser ist normalerweise in Ihrer E-Mail zu finden.",
+              "es": "Introduce tu código 2FA. Normalmente se encuentra en tu correo electrónico.",
+              "fr": "Entrez votre code 2FA. Vous le trouverez généralement dans votre e-mail.",
+              "it": "Inserisci il tuo codice 2FA. Questo di solito si trova nella tua e-mail.",
+              "no": "Skriv inn din 2FA-kode. Denne finnes vanligvis i e-posten din.",
+              "sv": "Ange din 2FA-kod. Denna hittar du vanligtvis i din e-post.",
+              "pl": "Wprowadź swój kod 2FA. Zazwyczaj można go znaleźć w e-mailu.",
+              "ru": "Введите ваш 2FA-код. Обычно его можно найти в вашей электронной почте.",
+              "ko": "2FA 코드를 입력하세요. 이메일에서 찾을 수 있습니다."
             }
           }
         },
@@ -645,7 +1007,18 @@
             "length": 6,
             "type": "number",
             "title": {
-              "en": "Enter your 2FA code. This can usually be found in your e-mail."
+              "en": "Enter your 2FA code. This can usually be found in your e-mail.",
+              "nl": "Voer je 2FA-code in. Deze is meestal te vinden in je e-mail.",
+              "da": "Indtast din 2FA-kode. Denne kan normalt findes i din e-mail.",
+              "de": "Geben Sie Ihren 2FA-Code ein. Dieser ist normalerweise in Ihrer E-Mail zu finden.",
+              "es": "Introduce tu código 2FA. Normalmente se encuentra en tu correo electrónico.",
+              "fr": "Entrez votre code 2FA. Vous le trouverez généralement dans votre e-mail.",
+              "it": "Inserisci il tuo codice 2FA. Questo di solito si trova nella tua e-mail.",
+              "no": "Skriv inn din 2FA-kode. Denne finnes vanligvis i e-posten din.",
+              "sv": "Ange din 2FA-kod. Denna hittar du vanligtvis i din e-post.",
+              "pl": "Wprowadź swój kod 2FA. Zazwyczaj można go znaleźć w e-mailu.",
+              "ru": "Введите ваш 2FA-код. Обычно его можно найти в вашей электронной почте.",
+              "ko": "2FA 코드를 입력하세요. 이메일에서 찾을 수 있습니다."
             }
           }
         },
@@ -662,28 +1035,68 @@
           "value": "quiet",
           "label": {
             "en": "Default power mode",
-            "nl": "Standaard vermogensmodus"
+            "nl": "Standaard vermogensmodus",
+            "da": "Standard strømmodus",
+            "de": "Standard-Leistungsmodus",
+            "es": "Modo de energía predeterminado",
+            "fr": "Mode d'alimentation par défaut",
+            "it": "Modalità di alimentazione predefinita",
+            "no": "Standard strømmodus",
+            "sv": "Standardläge för ström",
+            "pl": "Domyślny tryb zasilania",
+            "ru": "Режим питания по умолчанию",
+            "ko": "기본 전원 모드"
           },
           "values": [
             {
               "id": "quiet",
               "label": {
                 "en": "Quiet",
-                "nl": "Stil"
+                "nl": "Stil",
+                "da": "Stille",
+                "de": "Leise",
+                "es": "Silencioso",
+                "fr": "Silencieux",
+                "it": "Silenzioso",
+                "no": "Stille",
+                "sv": "Tyst",
+                "pl": "Cichy",
+                "ru": "Тихий",
+                "ko": "조용한"
               }
             },
             {
               "id": "high",
               "label": {
                 "en": "High",
-                "nl": "Hoog"
+                "nl": "Hoog",
+                "da": "Høj",
+                "de": "Hoch",
+                "es": "Alto",
+                "fr": "Élevé",
+                "it": "Alto",
+                "no": "Høy",
+                "sv": "Hög",
+                "pl": "Wysoki",
+                "ru": "Высокий",
+                "ko": "높은"
               }
             },
             {
               "id": "max",
               "label": {
                 "en": "Max",
-                "nl": "Max"
+                "nl": "Max",
+                "da": "Maks",
+                "de": "Max",
+                "es": "Máx",
+                "fr": "Max",
+                "it": "Max",
+                "no": "Maks",
+                "sv": "Max",
+                "pl": "Max",
+                "ru": "Макс",
+                "ko": "최대"
               }
             }
           ]
@@ -693,7 +1106,17 @@
     {
       "name": {
         "en": "Dyson Cool",
-        "nl": "Dyson Cool"
+        "nl": "Dyson Cool",
+        "da": "Dyson Cool",
+        "de": "Dyson Cool",
+        "es": "Dyson Cool",
+        "fr": "Dyson Cool",
+        "it": "Dyson Cool",
+        "no": "Dyson Cool",
+        "sv": "Dyson Cool",
+        "pl": "Dyson Cool",
+        "ru": "Дайсон Кул",
+        "ko": "다이슨 쿨"
       },
       "class": "fan",
       "capabilities": [
@@ -725,7 +1148,18 @@
     },
     {
       "name": {
-        "en": "Dyson Link"
+        "en": "Dyson Link",
+        "nl": "Dyson Link",
+        "da": "Dyson Link",
+        "de": "Dyson Link",
+        "es": "Dyson Link",
+        "fr": "Dyson Link",
+        "it": "Dyson Link",
+        "no": "Dyson Link",
+        "sv": "Dyson Link",
+        "pl": "Dyson Link",
+        "ru": "Dyson Link",
+        "ko": "Dyson Link"
       },
       "class": "fan",
       "platforms": [
@@ -763,7 +1197,18 @@
             "length": 6,
             "type": "number",
             "title": {
-              "en": "Enter your 2FA code. This can usually be found in your e-mail."
+              "en": "Enter your 2FA code. This can usually be found in your e-mail.",
+              "nl": "Voer je 2FA-code in. Deze vind je meestal in je e-mail.",
+              "da": "Indtast din 2FA-kode. Den findes normalt i din e-mail.",
+              "de": "Geben Sie Ihren 2FA-Code ein. Dieser befindet sich normalerweise in Ihrer E-Mail.",
+              "es": "Introduce tu código 2FA. Suele encontrarse en tu correo electrónico.",
+              "fr": "Entrez votre code 2FA. Vous le trouverez généralement dans votre e-mail.",
+              "it": "Inserisci il tuo codice 2FA. Di solito si trova nella tua e-mail.",
+              "no": "Skriv inn din 2FA-kode. Den finner du vanligvis i e-posten din.",
+              "sv": "Ange din 2FA-kod. Du hittar den vanligtvis i din e-post.",
+              "pl": "Wprowadź swój kod 2FA. Zwykle znajduje się w twoim e-mailu.",
+              "ru": "Введите свой 2FA-код. Он обычно находится в вашей электронной почте.",
+              "ko": "2FA 코드를 입력하세요. 이메일에서 찾을 수 있습니다."
             }
           }
         },
@@ -794,7 +1239,18 @@
             "length": 6,
             "type": "number",
             "title": {
-              "en": "Enter your 2FA code. This can usually be found in your e-mail."
+              "en": "Enter your 2FA code. This can usually be found in your e-mail.",
+              "nl": "Voer je 2FA-code in. Deze vind je meestal in je e-mail.",
+              "da": "Indtast din 2FA-kode. Den findes normalt i din e-mail.",
+              "de": "Geben Sie Ihren 2FA-Code ein. Dieser befindet sich normalerweise in Ihrer E-Mail.",
+              "es": "Introduce tu código 2FA. Suele encontrarse en tu correo electrónico.",
+              "fr": "Entrez votre code 2FA. Vous le trouverez généralement dans votre e-mail.",
+              "it": "Inserisci il tuo codice 2FA. Di solito si trova nella tua e-mail.",
+              "no": "Skriv inn din 2FA-kode. Den finner du vanligvis i e-posten din.",
+              "sv": "Ange din 2FA-kod. Du hittar den vanligtvis i din e-post.",
+              "pl": "Wprowadź swój kod 2FA. Zwykle znajduje się w twoim e-mailu.",
+              "ru": "Введите свой 2FA-код. Он обычно находится в вашей электронной почте.",
+              "ko": "2FA 코드를 입력하세요. 이메일에서 찾을 수 있습니다."
             }
           }
         },
@@ -811,7 +1267,17 @@
       "type": "enum",
       "title": {
         "en": "Airflow direction",
-        "nl": "Richting"
+        "nl": "Richting",
+        "da": "Luftstrømretning",
+        "de": "Luftstromrichtung",
+        "es": "Dirección del flujo de aire",
+        "fr": "Direction du flux d'air",
+        "it": "Direzione del flusso d'aria",
+        "no": "Luftstrømretning",
+        "sv": "Luftströmstyrning",
+        "pl": "Kierunek przepływu powietrza",
+        "ru": "Направление воздушного потока",
+        "ko": "공기 흐름 방향"
       },
       "getable": true,
       "setable": true,
@@ -821,14 +1287,34 @@
           "id": "FORWARD",
           "title": {
             "en": "Forward",
-            "nl": "Naar voren"
+            "nl": "Naar voren",
+            "da": "Fremad",
+            "de": "Vorwärts",
+            "es": "Hacia adelante",
+            "fr": "En avant",
+            "it": "Avanti",
+            "no": "Forover",
+            "sv": "Framåt",
+            "pl": "Do przodu",
+            "ru": "Вперед",
+            "ko": "앞쪽"
           }
         },
         {
           "id": "BACKWARD",
           "title": {
             "en": "Backward",
-            "nl": "Naar achteren"
+            "nl": "Naar achteren",
+            "da": "Bagud",
+            "de": "Rückwärts",
+            "es": "Hacia atrás",
+            "fr": "En arrière",
+            "it": "Indietro",
+            "no": "Bakover",
+            "sv": "Bakåt",
+            "pl": "Do tyłu",
+            "ru": "Назад",
+            "ko": "뒤쪽"
           }
         }
       ]
@@ -837,7 +1323,17 @@
       "type": "boolean",
       "title": {
         "en": "Auto",
-        "nl": "Auto"
+        "nl": "Auto",
+        "da": "Auto",
+        "de": "Auto",
+        "es": "Auto",
+        "fr": "Auto",
+        "it": "Auto",
+        "no": "Auto",
+        "sv": "Auto",
+        "pl": "Auto",
+        "ru": "Авто",
+        "ko": "자동"
       },
       "getable": true,
       "setable": true,
@@ -846,7 +1342,17 @@
     "fan_speed": {
       "title": {
         "en": "Fan Speed",
-        "nl": "Snelheid"
+        "nl": "Snelheid",
+        "da": "Blæserhastighed",
+        "de": "Lüftergeschwindigkeit",
+        "es": "Velocidad del ventilador",
+        "fr": "Vitesse du ventilateur",
+        "it": "Velocità della ventola",
+        "no": "Viftehastighet",
+        "sv": "Fläkthastighet",
+        "pl": "Prędkość wentylatora",
+        "ru": "Скорость вентилятора",
+        "ko": "팬 속도"
       },
       "setable": true,
       "getable": true,
@@ -864,7 +1370,17 @@
       "uiComponent": "button",
       "title": {
         "en": "Abort program",
-        "nl": "Beeïndig programma"
+        "nl": "Beeïndig programma",
+        "da": "Afslut program",
+        "de": "Programm abbrechen",
+        "es": "Abortar programa",
+        "fr": "Interrompre le programme",
+        "it": "Interrompi programma",
+        "no": "Avbryt programmet",
+        "sv": "Avbryt program",
+        "pl": "Zakończ program",
+        "ru": "Прервать программу",
+        "ko": "프로그램 중단"
       },
       "uiQuickAction": true
     },
@@ -875,7 +1391,17 @@
       "uiComponent": "button",
       "title": {
         "en": "Clean all zones",
-        "nl": "Reinig alle zones"
+        "nl": "Reinig alle zones",
+        "da": "Rens alle zoner",
+        "de": "Alle Zonen reinigen",
+        "es": "Limpiar todas las zonas",
+        "fr": "Nettoyer toutes les zones",
+        "it": "Pulisci tutte le zone",
+        "no": "Rengjør alle soner",
+        "sv": "Rengör alla zoner",
+        "pl": "Wyczyść wszystkie strefy",
+        "ru": "Очистить все зоны",
+        "ko": "모든 구역 청소"
       },
       "uiQuickAction": true
     },
@@ -886,7 +1412,17 @@
       "uiComponent": "button",
       "title": {
         "en": "Pause program",
-        "nl": "Pauzeer programma"
+        "nl": "Pauzeer programma",
+        "da": "Pause program",
+        "de": "Programm pausieren",
+        "es": "Pausar programa",
+        "fr": "Suspendre le programme",
+        "it": "Metti in pausa il programma",
+        "no": "Pause program",
+        "sv": "Pausa program",
+        "pl": "Wstrzymaj program",
+        "ru": "Приостановить программу",
+        "ko": "프로그램 일시 중지"
       },
       "uiQuickAction": true
     },
@@ -898,28 +1434,68 @@
       "icon": "/assets/capabilities/vacuum-power-mode.svg",
       "title": {
         "en": "Vacuum power mode",
-        "nl": "Vermogensmodus"
+        "nl": "Vermogensmodus",
+        "da": "Støvsuger strømtilstand",
+        "de": "Staubsauger Leistungmodus",
+        "es": "Modo de potencia de aspiradora",
+        "fr": "Mode de puissance de l'aspirateur",
+        "it": "Modalità potenza aspirapolvere",
+        "no": "Støvsuger strømmodus",
+        "sv": "Dammsugare kraftläge",
+        "pl": "Tryb zasilania odkurzacza",
+        "ru": "Режим мощности пылесоса",
+        "ko": "청소기 파워 모드"
       },
       "values": [
         {
           "id": "quiet",
           "title": {
             "en": "Quiet",
-            "nl": "Stil"
+            "nl": "Stil",
+            "da": "Stille",
+            "de": "Leise",
+            "es": "Silencioso",
+            "fr": "Silencieux",
+            "it": "Silenzioso",
+            "no": "Stille",
+            "sv": "Tyst",
+            "pl": "Cichy",
+            "ru": "Тихий",
+            "ko": "조용한"
           }
         },
         {
           "id": "high",
           "title": {
             "en": "High",
-            "nl": "Hoog"
+            "nl": "Hoog",
+            "da": "Høj",
+            "de": "Hoch",
+            "es": "Alto",
+            "fr": "Élevé",
+            "it": "Alto",
+            "no": "Høy",
+            "sv": "Hög",
+            "pl": "Wysoki",
+            "ru": "Высокий",
+            "ko": "높은"
           }
         },
         {
           "id": "max",
           "title": {
             "en": "Max",
-            "nl": "Max"
+            "nl": "Max",
+            "da": "Maks",
+            "de": "Max",
+            "es": "Máximo",
+            "fr": "Max",
+            "it": "Max",
+            "no": "Max",
+            "sv": "Max",
+            "pl": "Max",
+            "ru": "Максимум",
+            "ko": "최대"
           }
         }
       ]
@@ -931,7 +1507,17 @@
       "uiComponent": "button",
       "title": {
         "en": "Resume program",
-        "nl": "Hervat programma"
+        "nl": "Hervat programma",
+        "da": "Genoptag program",
+        "de": "Programm fortsetzen",
+        "es": "Reanudar programa",
+        "fr": "Reprendre le programme",
+        "it": "Riprendi il programma",
+        "no": "Gjenoppta program",
+        "sv": "Återuppta program",
+        "pl": "Wznów program",
+        "ru": "Возобновить программу",
+        "ko": "프로그램 재개"
       },
       "uiQuickAction": true
     },
@@ -1176,7 +1762,17 @@
       "type": "boolean",
       "title": {
         "en": "Less air",
-        "nl": "Minder lucht"
+        "nl": "Minder lucht",
+        "da": "Mindre luft",
+        "de": "Weniger Luft",
+        "es": "Menos aire",
+        "fr": "Moins d'air",
+        "it": "Meno aria",
+        "no": "Mindre luft",
+        "sv": "Mindre luft",
+        "pl": "Mniej powietrza",
+        "ru": "Меньше воздуха",
+        "ko": "공기 적게"
       },
       "getable": false,
       "setable": true,
@@ -1185,13 +1781,33 @@
     "measure_air_quality": {
       "title": {
         "en": "Air Quality",
-        "nl": "Luchtkwaliteit"
+        "nl": "Luchtkwaliteit",
+        "da": "Luftkvalitet",
+        "de": "Luftqualität",
+        "es": "Calidad del aire",
+        "fr": "Qualité de l'air",
+        "it": "Qualità dell'aria",
+        "no": "Luftkvalitet",
+        "sv": "Luftkvalitet",
+        "pl": "Jakość powietrza",
+        "ru": "Качество воздуха",
+        "ko": "공기 질"
       },
       "setable": false,
       "getable": true,
       "type": "number",
       "units": {
-        "en": "%"
+        "en": "%",
+        "da": "%",
+        "de": "%",
+        "es": "%",
+        "fr": "%",
+        "it": "%",
+        "no": "%",
+        "sv": "%",
+        "pl": "%",
+        "ru": "%",
+        "ko": "%"
       },
       "uiComponent": "sensor"
     },
@@ -1199,7 +1815,17 @@
       "type": "boolean",
       "title": {
         "en": "More air",
-        "nl": "Meer lucht"
+        "nl": "Meer lucht",
+        "da": "Mere luft",
+        "de": "Mehr Luft",
+        "es": "Más aire",
+        "fr": "Plus d'air",
+        "it": "Più aria",
+        "no": "Mer luft",
+        "sv": "Mer luft",
+        "pl": "Więcej powietrza",
+        "ru": "Больше воздуха",
+        "ko": "더 많은 공기"
       },
       "getable": false,
       "setable": true,
@@ -1209,7 +1835,17 @@
       "type": "boolean",
       "title": {
         "en": "Night mode",
-        "nl": "Nachtstand"
+        "nl": "Nachtstand",
+        "da": "Nattetilstand",
+        "de": "Nachtmodus",
+        "es": "Modo nocturno",
+        "fr": "Mode nuit",
+        "it": "Modalità notturna",
+        "no": "Nattmodus",
+        "sv": "Nattläge",
+        "pl": "Tryb nocny",
+        "ru": "Ночной режим",
+        "ko": "야간 모드"
       },
       "getable": true,
       "setable": true,
@@ -1220,7 +1856,17 @@
       "type": "boolean",
       "title": {
         "en": "Oscillate",
-        "nl": "Draaien"
+        "nl": "Draaien",
+        "da": "Oscillere",
+        "de": "Oszillieren",
+        "es": "Oscilar",
+        "fr": "Osciller",
+        "it": "Oscillare",
+        "no": "Oscillere",
+        "sv": "Oscillera",
+        "pl": "Oscylować",
+        "ru": "Колебаться",
+        "ko": "진동"
       },
       "getable": true,
       "setable": true,
@@ -1235,7 +1881,17 @@
       "icon": "/assets/capabilities/charging.svg",
       "title": {
         "en": "Charging",
-        "nl": "Aan het opladen"
+        "nl": "Aan het opladen",
+        "da": "Lader",
+        "de": "Laden",
+        "es": "Cargando",
+        "fr": "Chargement",
+        "it": "Carica",
+        "no": "Lader",
+        "sv": "Laddar",
+        "pl": "Ładowanie",
+        "ru": "Зарядка",
+        "ko": "충전 중"
       }
     },
     "vacuum_program_state": {
@@ -1246,7 +1902,17 @@
       "uiComponent": "toggle",
       "title": {
         "en": "Paused",
-        "nl": "Gepauzeerd"
+        "nl": "Gepauzeerd",
+        "da": "Sat på pause",
+        "de": "Pausiert",
+        "es": "Pausado",
+        "fr": "En pause",
+        "it": "In pausa",
+        "no": "Pauset",
+        "sv": "Pausad",
+        "pl": "Wstrzymane",
+        "ru": "Приостановлено",
+        "ko": "일시 중지됨"
       }
     }
   },

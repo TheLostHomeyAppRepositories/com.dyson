@@ -1,0 +1,4 @@
+{
+  "invalid_credentials": "Email e password non corrispondono.",
+  "missing_client": "Il dispositivo non è stato trovato nella rete locale."
+}

@@ -1,0 +1,4 @@
+{
+  "invalid_credentials": "Combinaison email et mot de passe invalide.",
+  "missing_client": "L'appareil n'a pas pu être trouvé sur le réseau local."
+}
